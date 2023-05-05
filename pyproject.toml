@@ -25,7 +25,8 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    'aiogram>=3.0.0b5,<4.0.0',
+    # 'aiogram>=3.0.0b5,<4.0.0',  # TODO: TEMPORARY
+    'git+https://github.com/aiogram/aiogram.git@cf269e15f4a098b051f97bc68bb2e710d3d61d8a', # TODO: TEMPORARY
     'jinja2',
     'cachetools>=4.0.0,<6.0.0',
     'magic_filter',
